@@ -1,5 +1,5 @@
 # ---------------------------
-# F-STRINGS (FORMATTED STRING LITERALS)
+# 🌀 F-STRINGS (FORMATTED STRING LITERALS)
 # ---------------------------
 
 # Basic example: inserting variables inside a string
@@ -34,16 +34,10 @@ def greet(person):
 print(f"Greeting message: {greet(name)}")
 
 # ---------------------------
-# Formatting numbers in f-strings
+# 🌀 Formatting numbers in f-strings
 # (optional but useful for later)
 # ---------------------------
 
 pi = 3.1415926535
 print(f"Pi rounded to 2 decimals: {pi:.2f}")  # .2f means 2 decimal places
 print(f"Pi as percentage: {pi:.2%}")          # format as percentage
-
-# ---------------------------
-# End of summary
-# ---------------------------
-
-print("F-string examples completed successfully ✅")

@@ -1,5 +1,5 @@
 # ---------------------------
-# Strings
+# 🌀 Strings
 # ---------------------------
 
 a = "Hello"
@@ -17,7 +17,7 @@ print("zebra" > "apple")    # True
 
 
 # ---------------------------
-# Type Casting
+# 🌀 Type Casting
 # ---------------------------
 
 c = 10        # int
@@ -34,7 +34,7 @@ print(bool(c))          # True (non-zero → True)
 
 
 # ---------------------------
-# Booleans
+# 🌀 Booleans
 # ---------------------------
 
 val = True

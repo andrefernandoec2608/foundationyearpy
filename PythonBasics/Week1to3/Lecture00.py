@@ -1,5 +1,5 @@
 # ---------------------------
-# STRING QUOTES & ESCAPE CHARACTERS SUMMARY
+# 🌀 STRING QUOTES & ESCAPE CHARACTERS SUMMARY
 # ---------------------------
 
 # 1️⃣ Newline (\n)
@@ -30,7 +30,7 @@ print("This is a backslash: \\")
 
 
 # ---------------------------
-# SINGLE, DOUBLE, AND TRIPLE QUOTES
+# 🌀 SINGLE, DOUBLE, AND TRIPLE QUOTES
 # ---------------------------
 
 # 5️⃣ Single quotes (' ')
@@ -68,10 +68,7 @@ print(paragraph)
 # She said, "It's a beautiful day!"
 # Let's go coding in Python.
 
-
-# ---------------------------
-# RAW STRINGS (r"")
-# ---------------------------
+# 🔟 RAW STRINGS (r"")
 # Prevents escape sequences from being processed
 path = r"C:\Users\Gerardo\Documents"
 print(path)

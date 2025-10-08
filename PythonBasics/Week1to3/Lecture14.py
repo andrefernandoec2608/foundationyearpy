@@ -1,5 +1,5 @@
 # ---------------------------
-# FUNCTION CAN RECEIVE ANOTHER FUNCTION
+# 🌀 FUNCTION CAN RECEIVE ANOTHER FUNCTION
 # ---------------------------
 
 # Simple functions

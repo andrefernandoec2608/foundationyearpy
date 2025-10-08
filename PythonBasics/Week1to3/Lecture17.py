@@ -1,5 +1,5 @@
 # ---------------------------
-# SLICING AND REVERSING
+# 🌀 SLICING AND REVERSING
 # ---------------------------
 
 letters = ["a", "b", "c", "d", "e", "f"]
@@ -10,7 +10,7 @@ print("Reversed list:", letters)
 
 
 # ---------------------------
-# REMOVING ELEMENTS
+# 🌀 REMOVING ELEMENTS
 # ---------------------------
 
 data = [5, 2, 3, 4, 7, "I", "am", 30, [1, 2]]
@@ -23,7 +23,7 @@ print("After pop:", data)
 
 
 # ---------------------------
-# SORTING LISTS
+# 🌀 SORTING LISTS
 # ---------------------------
 
 unsorted_list = [4, 1, 3, 2]

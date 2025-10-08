@@ -1,5 +1,5 @@
 # ---------------------------
-# Strings in Python
+# 🌀 Strings in Python
 # ---------------------------
 
 # Strings are sequences of characters.
@@ -28,7 +28,3 @@ print(str4)   # 'yello'
 
 # --- String length ---
 print(len(str4))   # 5  -> number of characters in the string
-
-# --- Extra: integer method example ---
-a = 10
-print(a.bit_length())   # 4  -> bits needed to represent 10 in binary (1010)

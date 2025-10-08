@@ -4,7 +4,7 @@
 # 2. A Value (the data it holds)
 # 3. A Behavior (the operations/methods it supports)
 
-# Example with an integer
+# 🌀 Example with an integer
 x = 42
 
 # 1. Type
@@ -17,7 +17,7 @@ print(x)         # 42
 print(x.bit_length())   # 6 -> the number of bits required to represent 42
 
 
-# Example with a string
+# 🌀 Example with a string
 s = "hello"
 
 # 1. Type

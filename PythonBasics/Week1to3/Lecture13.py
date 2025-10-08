@@ -1,5 +1,5 @@
 # ---------------------------
-# FUNCTION CAN RETURN ANYTHING
+# 🌀 FUNCTION CAN RETURN ANYTHING
 # ---------------------------
 
 # A function can return numbers, strings, lists, dicts, or even other functions.

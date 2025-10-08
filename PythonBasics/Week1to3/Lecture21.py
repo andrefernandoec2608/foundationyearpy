@@ -1,5 +1,5 @@
 # ---------------------------
-# 1️⃣ FUNCTION RETURN SUMMARY
+# 🌀 FUNCTION RETURN SUMMARY
 # ---------------------------
 # When Python executes a return, it immediately exits the function, no matter what comes after it.
 def example():

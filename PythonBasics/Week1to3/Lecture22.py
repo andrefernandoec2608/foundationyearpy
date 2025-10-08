@@ -1,5 +1,5 @@
 # ---------------------------
-# 2️⃣ LIST ALIASING & 'del list[:]' SUMMARY
+# 🌀 LIST ALIASING & 'del list[:]' SUMMARY
 # ---------------------------
 
 # Step 1: All variables reference the same list object

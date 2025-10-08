@@ -1,5 +1,5 @@
 # ---------------------------
-# STRUCTURING PROGRAMS IN PYTHON
+# 🌀 STRUCTURING PROGRAMS IN PYTHON
 # ---------------------------
 
 # ===========================
@@ -28,7 +28,7 @@ def show_message():
 print(show_message())   # prints "Hello!" then returns None
 
 # ===========================
-# 2. CLASSES
+# 🌀 2. CLASSES
 # ===========================
 
 # A class groups data (attributes) and behavior (methods) together.
@@ -63,7 +63,7 @@ p1.email = "alice@example.com"   # dynamic attribute
 print("Dynamic attribute (email):", p1.email)
 
 # ===========================
-# 3. MODULES
+# 🌀 3. MODULES
 # ===========================
 
 # Imagine we have another file called "math_utils.py" with functions like this:

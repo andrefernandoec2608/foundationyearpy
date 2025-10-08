@@ -1,5 +1,5 @@
 # ---------------------------
-# VARIABLE SCOPE IN PYTHON
+# 🌀 VARIABLE SCOPE IN PYTHON
 # ---------------------------
 
 # Global variable
@@ -52,7 +52,7 @@ outer()
 
 
 # ---------------------------
-# BUILT-IN SCOPE EXAMPLE
+# 🌀 BUILT-IN SCOPE EXAMPLE
 # ---------------------------
 
 # Using built-in functions

@@ -1,5 +1,5 @@
 # ---------------------------
-# LISTS & TUPLES — KEY CONCEPTS SUMMARY (points 2–6)
+# 🌀 LISTS & TUPLES — KEY CONCEPTS SUMMARY
 # ---------------------------
 
 

@@ -1,5 +1,5 @@
 # ---------------------------
-# INTEGER DIVISION (//) AND MODULUS (%) SUMMARY
+# 🌀 INTEGER DIVISION (//) AND MODULUS (%) SUMMARY
 # ---------------------------
 
 # 1️⃣ Basic idea

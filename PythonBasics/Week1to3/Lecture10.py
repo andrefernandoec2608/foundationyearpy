@@ -1,5 +1,5 @@
 # ---------------------------
-# VARIABLE SCOPE (GLOBAL & NONLOCAL)
+# 🌀 VARIABLE SCOPE (GLOBAL & NONLOCAL)
 # ---------------------------
 
 # ---------- Global variable ----------

@@ -1,5 +1,5 @@
 # ---------------------------
-# FUNCTION PARAMETERS & ARGUMENT ORDER
+# 🌀 FUNCTION PARAMETERS & ARGUMENT ORDER
 # ---------------------------
 
 # ✅ 1. Correct order when DEFINING a function:

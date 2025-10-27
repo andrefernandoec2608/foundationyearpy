@@ -1,5 +1,5 @@
 # ---------------------------
-# 🌀 Strings
+# 🌀 STRING & CASTING & BOOLEAN
 # ---------------------------
 
 a = "Hello"
@@ -34,7 +34,7 @@ print(bool(c))          # True (non-zero → True)
 
 
 # ---------------------------
-# 🌀 Booleans
+# 🌀 Boolean
 # ---------------------------
 
 val = True

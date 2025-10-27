@@ -2,7 +2,7 @@
 # 🌀 FLOW CONTROL & LOOPS SUMMARY
 # ---------------------------
 
-# ---------- IF / ELIF / ELSE ----------
+# 1️⃣ IF / ELIF / ELSE
 x = 5
 
 if x > 0:
@@ -13,7 +13,7 @@ else:
     print("Negative number")
 
 
-# ---------- WHILE LOOP ----------
+# 2️⃣ WHILE LOOP 
 # Repeats while the condition is True
 count = 0
 while count < 3:
@@ -33,14 +33,13 @@ for i in range(1, 10, 3):
     print("i =", i)   # 1, 4, 7
 
 
-# ---------- FOR LOOP with enumerate() ----------
+# 3️⃣ FOR LOOP with enumerate()
 # Useful to get both index and value
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print("Index:", index, "Fruit:", fruit)
 
-
-# ---------- CONTINUE ----------
+# 4️⃣ CONTINUE 
 # Skips the rest of the current iteration
 for i in range(5):
     if i == 2:
@@ -50,7 +49,7 @@ for i in range(5):
 # Output: 0, 1, 3, 4
 
 
-# ---------- BREAK ----------
+# 5️⃣ BREAK
 # Exits the loop completely
 for i in range(5):
     if i == 3:
@@ -60,12 +59,12 @@ for i in range(5):
 # Output: 0, 1, 2
 
 
-# ---------- PASS ----------
-# Does nothing; used as a placeholder (TODO)
+# 6️⃣ PASS ** It's very importante because it helps to keep Python syntax **
+# Does nothing; used as a placeholder
 for i in range(5):
     if i == 2:
-        pass  # TODO: Implement some logic later
+        pass  # Placeholder, does nothing
     else:
         print("pass example ->", i)
 
-# Output: 0, 1, 2, 3, 4  (pass does nothing)
+# Output: 0, 1, 3, 4  (pass does nothing)

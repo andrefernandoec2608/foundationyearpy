@@ -1,4 +1,8 @@
-# 🌀 Scalar objects: represent single atomic values
+# ---------------------------
+# 🌀 OBJECT & SCALAR AND NON-SCALAR
+# ---------------------------
+
+# 1️⃣ Scalar objects: represent single atomic values
 # Think: “one single piece of data”
 age = 30          # int
 pi = 3.1415       # float
@@ -10,7 +14,7 @@ print(type(pi))        # <class 'float'>
 print(type(is_student))# <class 'bool'>
 print(type(name))      # <class 'str'>
 
-# 🌀 Non-scalar objects: represent collections or structures
+# 2️⃣ Non-scalar objects: represent collections or structures
 # Think: “containers of data”.
 numbers = [1, 2, 3, 4]                   # list
 coordinates = (10, 20)                   # tuple
@@ -22,7 +26,7 @@ print(type(coordinates))   # <class 'tuple'>
 print(type(person))        # <class 'dict'>
 print(type(unique_numbers))# <class 'set'>
 
-# 🌀 Basic arithmetic operations
+# 🌀 EXTRA knowledge: Basic arithmetic operations
 a = 5
 b = 2
 

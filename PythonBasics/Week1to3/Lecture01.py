@@ -1,10 +1,14 @@
-# In Python, everything is an object.
+# ---------------------------
+# 🌀 OBJECT & TYPE, VALUE, BEHAIVOT
+# ---------------------------
+
+# In Python, EVERYTHING is an object.
 # Each object has:
 # 1. A Type (what kind of object it is)
 # 2. A Value (the data it holds)
 # 3. A Behavior (the operations/methods it supports)
 
-# 🌀 Example with an integer
+# 1️⃣ Example with an INTEGER
 x = 42
 
 # 1. Type
@@ -17,7 +21,7 @@ print(x)         # 42
 print(x.bit_length())   # 6 -> the number of bits required to represent 42
 
 
-# 🌀 Example with a string
+# 2️⃣ Example with a STRING
 s = "hello"
 
 # 1. Type

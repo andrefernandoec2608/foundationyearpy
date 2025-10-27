@@ -1,8 +1,8 @@
 # ---------------------------
-# 🌀 VARIABLE SCOPE (GLOBAL & NONLOCAL)
+# 🌀 VARIABLE SCOPE - PART 02
 # ---------------------------
 
-# ---------- Global variable ----------
+# 1️⃣ Global variable 
 x = 10  # global variable
 
 def show_scope():
@@ -15,7 +15,7 @@ print("Outside function -> global x:", x)
 # print(y)  # ❌ would raise NameError (y is local)
 
 
-# ---------- Modifying global variable ----------
+# 2️⃣ Modifying global variable
 # By default, you cannot modify a global variable directly inside a function.
 # You need to use the 'global' keyword.
 
@@ -32,7 +32,7 @@ for _ in range(3):
 print("Outside function -> count:", count)
 
 
-# ---------- Functions without 'global' ----------
+# 3️⃣ Functions without 'global'
 # Without the keyword, Python creates a NEW local variable (does not touch the global one).
 
 x = 100
@@ -45,7 +45,7 @@ modify_local()
 print("Outside after modify_local() -> global x:", x)  # unchanged
 
 
-# ---------- Using NONLOCAL ----------
+# 4️⃣ Using NONLOCA
 # 'nonlocal' allows inner functions to modify variables
 # from their enclosing (outer) function scope.
 

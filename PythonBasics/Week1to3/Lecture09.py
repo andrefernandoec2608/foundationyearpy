@@ -1,8 +1,8 @@
 # ---------------------------
-# 🌀 VARIABLE SCOPE IN PYTHON
+# 🌀 VARIABLE SCOPE - PART 01
 # ---------------------------
 
-# Global variable
+# 1️⃣ Global variable
 x = 10
 
 def my_function():
@@ -19,10 +19,7 @@ print(f"Outside function -> x: {x}")
 # Uncommenting the next line would raise an error
 # print(y)  # ❌ NameError: 'y' is not defined (y is local)
 
-
-# ---------------------------
-# LOCALS() - Show local scope mapping
-# ---------------------------
+# 2️⃣ LOCALS() - Show local scope mapping
 
 def show_scope():
     a = 10
@@ -32,11 +29,7 @@ def show_scope():
 
 show_scope()
 
-
-# ---------------------------
-# LEGB RULE EXAMPLE
-# (Local → Enclosing → Global → Built-in)
-# ---------------------------
+# 3️⃣ LEGB RULE EXAMPLE (Local → Enclosing → Global → Built-in)
 
 x = "global"
 
@@ -52,7 +45,7 @@ outer()
 
 
 # ---------------------------
-# 🌀 BUILT-IN SCOPE EXAMPLE
+# 🌀EXTRA knowledge: BUILT-IN FUNCTIONS
 # ---------------------------
 
 # Using built-in functions
@@ -62,7 +55,7 @@ print("Built-in max():", max(numbers))
 print("Built-in sum():", sum(numbers))
 print("Built-in type():", type(numbers))
 
-# Show some built-in names
+# Show some built-in functions names
 import builtins
 print("\nShow some built-in names:")
 print(dir(builtins)[:15])  # Show the first 15 built-in names

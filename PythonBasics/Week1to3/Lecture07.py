@@ -12,12 +12,12 @@ def get_person_info():
     return name, age, country   # returns a tuple automatically
 
 
-# ---- 1. Receive all values as one tuple ----
+# 1️⃣ Receive all values as one tuple
 result = get_person_info()
-print("Tuple result:", result)
-print("Type:", type(result))    # <class 'tuple'>
+print("Tuple result:", result) # ('Alice', 25, 'Hungary')
+print("Type:", type(result)) # <class 'tuple'>
 
-# ---- 2. Tuple unpacking ----
+# 2️⃣ Tuple unpacking
 # You can unpack multiple values into separate variables.
 name, age, country = get_person_info()
 
@@ -25,11 +25,11 @@ print("Name:", name)
 print("Age:", age)
 print("Country:", country)
 
-# ---- 3. You can also ignore values using "_" ----
+# 3️⃣ You can also ignore values using "_"
 name, _, country = get_person_info()
 print("Ignoring the middle value ->", name, country)
 
-# ---- 4. Returning other structures (list, dict) ----
+# 4️⃣ Returning other structures (list, dict)
 def get_data_structures():
     numbers = [1, 2, 3]
     student = {"name": "Bob", "grade": 90}

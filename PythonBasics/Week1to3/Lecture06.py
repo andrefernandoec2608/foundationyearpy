@@ -3,32 +3,42 @@
 # ---------------------------
 
 # ===========================
-# 1. FUNCTIONS
+# 🌀 FUNCTIONS
 # ===========================
 
-# A function is a reusable piece of code.
+# 1️⃣ A function is a reusable piece of code.
 # It helps to abstract and decompose logic into smaller, clear parts.
 
 def greet(name):
-    """Function that greets a person by name"""
+    """Function that greets a person by name. It is no a return statement."""
     print("Hello,", name)
 
 def add(a, b):
-    """Return the sum of two numbers"""
+    """Return the sum of two numbers. It is a return statement."""
     return a + b
 
-# Function calls
+"""
+Last functions can be rewritten like:
+
+def add(a: int, b: int) -> int:
+    return a + b
+
+def show_message() -> None:
+    print("Hello!")
+
+It’s not necessary to include ->, but it’s considered a good practice in
+professional code — especially in AI, backend, or university projects — because 
+it shows intention and clarity.
+"""
+
+# 2️⃣ Function calls
 greet("Alice")
+
 result = add(10, 5)
 print("Result:", result)
 
-# no return statement
-def show_message():
-    print("Hello!")   # no return statement
-print(show_message())   # prints "Hello!" then returns None
-
 # ===========================
-# 🌀 2. CLASSES
+# 🌀 CLASSES
 # ===========================
 
 # A class groups data (attributes) and behavior (methods) together.
@@ -63,7 +73,7 @@ p1.email = "alice@example.com"   # dynamic attribute
 print("Dynamic attribute (email):", p1.email)
 
 # ===========================
-# 🌀 3. MODULES
+# 🌀 MODULES
 # ===========================
 
 # Imagine we have another file called "math_utils.py" with functions like this:
@@ -76,18 +86,8 @@ print("Dynamic attribute (email):", p1.email)
 # def cube(x):
 #     return x ** 3
 
-# We can import and use it in another script:
+# We can import it and use it in another Python file
 # import math_utils
+#
 # print(math_utils.square(4))
 # print(math_utils.cube(2))
-
-
-# ===========================
-# WHY THIS MATTERS
-# ===========================
-
-# - Functions → reusable blocks for logic abstraction
-# - Classes → organize data and behavior
-# - Modules → group related code into files for clarity and scalability
-
-print("Program structured successfully ✅")

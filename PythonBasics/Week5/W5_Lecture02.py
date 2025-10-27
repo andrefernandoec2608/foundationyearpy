@@ -25,9 +25,9 @@ print(s2.name)   # Bob
 # The '.' operator is used to access:
 #   • data attributes  -> s1.name
 #   • methods           -> s1.some_method()
-# It’s equivalent to Java's dot notation (object.field or object.method()).
 
 # You can also create new attributes dynamically (Python allows it!)
+# BUT it is not good practice for formal classes
 s1.age = 21
 print(s1.age)    # 21
 

@@ -34,6 +34,11 @@ print(s1.age)    # 21
 # s2 doesn't have 'age' because we added it only to s1
 # print(s2.age)  # -> AttributeError
 
+"""
+💡NOTE: This flexibility is powerful but should be used carefully:
+it can make your objects inconsistent if overused.
+"""
+
 # -----------------------------------
 # TYPE AND ISINSTANCE
 # -----------------------------------
@@ -49,5 +54,7 @@ print(isinstance(s1, object))       # True (because all classes inherit from obj
 # In Python, a class is itself an object of type 'type'.
 print(type(Student))   # <class 'type'>
 
-# So 'Student' is an instance of 'type', and 's1' is an instance of 'Student'.
-# (This is part of Python’s dynamic object model.)
+"""
+💡NOTE:  So 'Student' is an instance of 'type', and 's1' is an instance of 'Student'.
+(This is part of Python’s dynamic object model.)
+"""

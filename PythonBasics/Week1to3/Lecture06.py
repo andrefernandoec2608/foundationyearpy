@@ -18,7 +18,7 @@ def add(a, b):
     return a + b
 
 """
-Last functions can be rewritten like:
+💡 NOTE: Last functions can be rewritten like:
 
 def add(a: int, b: int) -> int:
     return a + b

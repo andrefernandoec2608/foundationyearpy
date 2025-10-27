@@ -41,7 +41,7 @@ def countdown_rec(n: int) -> None:
 
 
 # -----------------------------
-# 🌀 Quick notes (inside comments)
+# 💡 Quick notes (inside comments)
 # -----------------------------
 # - Anything you can write with iteration, you can also write with recursion (and vice versa).
 # - Time complexity: O(n) for all versions above.

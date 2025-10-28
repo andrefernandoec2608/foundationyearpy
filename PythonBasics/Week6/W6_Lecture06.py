@@ -1,5 +1,5 @@
 # ---------------------------
-# 🌀 ENCAPSULATION & INFORMATION HIDING FOR ATTRIBUTES & METHODS
+# 🌀 ENCAPSULATION & ATTRIBUTES AND METHODS
 # ---------------------------
 # Python handles visibility — public, _protected, and __private for attributes and methods.
 # Python does NOT enforce access control like Java or C++.

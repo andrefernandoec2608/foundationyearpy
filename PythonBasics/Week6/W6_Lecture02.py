@@ -115,6 +115,7 @@ print(sorted_names_ci)  # ['alex', 'Bob', 'claire', 'Zoe']
 names.sort(key=str.lower, reverse=True)  # in-place, case-insensitive, descending
 print(names)  # ['Zoe', 'claire', 'Bob', 'alex']
 
+
 # 4️⃣ RANGE — lightweight numeric iterable
 # range(start, stop[, step]) produces numbers lazily (does not pre-build a list).
 print(list(range(0, 10, 2)))  # [0, 2, 4, 6, 8]
@@ -132,6 +133,7 @@ with open("sample.txt", "r") as f:
         lines_upper.append(line.rstrip("\n").upper())  # strip newline, transform
     print(lines_upper)  # Example: ['APPLE', 'BANANA', 'CHERRY']
 """
+
 
 # 🌀 EXTRA knowledge: ZIP & ENUMERATE (handy iterable helpers)
 

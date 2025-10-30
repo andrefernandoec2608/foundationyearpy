@@ -16,6 +16,7 @@ Throughout this project, you’ll find small visual cues to make learning smooth
 🌀 → marks when a new concept or piece of knowledge is introduced.  
 💡 NOTE: → highlights important ideas or clarifications.  
 ⚠️ ALERT: → points out key details or things to watch carefully.
+
 1️⃣ 2️⃣ 3️⃣ 4️⃣ ... → separate topics within the same lecture for easier reading.  
 
 Everything is fully commented so you can easily follow the logic and understand the knowledge behind each exercise. 💬  

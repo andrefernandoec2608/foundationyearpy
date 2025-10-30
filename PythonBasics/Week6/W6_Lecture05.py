@@ -5,6 +5,7 @@
 # preventing crashes and allowing safer, more predictable programs.
 
 # 1️⃣ BASIC try / except
+# The 'try' block contains code that might raise an exception.
 print("=== Basic try / except ===")
 try:
     x = 10 / 0
@@ -13,6 +14,7 @@ except ZeroDivisionError:
     print("❌ Cannot divide by zero!")  # Output: ❌ Cannot divide by zero!
 
 # 2️⃣ CAPTURING ERROR DETAILS
+#  You can capture the error details using 'as' to get more context about the exception.
 print("=== Capturing error details (as e) ===")
 try:
     y = int("abc")
@@ -20,6 +22,7 @@ except ValueError as e:
     print("⚠️ ValueError:", e)  # Output: ⚠️ ValueError: invalid literal for int() with base 10: 'abc'
 
 # 3️⃣ MULTIPLE EXCEPTIONS
+# The 'except' block that matches the raised error is executed first.
 print("=== Multiple exception handling ===")
 try:
     a = int(input("Enter numerator: "))     # Example input: 10
@@ -32,12 +35,13 @@ except ValueError:
 
 """
 💡 NOTE:
-The 'except' block that matches the raised error is executed first.
 If none match, the error propagates (as if it weren't inside the 'try' block).
 """
 
 # 4️⃣ ELSE and FINALLY
 print("=== try / except / else / finally ===")
+# Else: Executes only if no exception occurred.
+# Finally: always executed, regardless of whether an error occurred (ideal for clean-up or closure).
 try:
     result = 10 / 2
 except ZeroDivisionError:
@@ -46,12 +50,6 @@ else:
     print("✅ No exception, result =", result)  # Runs if no error
 finally:
     print("🧹 Finally block executed (cleanup code)")  # Always runs
-
-"""
-💡 NOTE:
-Else: Executes only if no exception occurred.
-Finally: always executed, regardless of whether an error occurred (ideal for clean-up or closure).
-"""
 
 # 5️⃣ GENERIC EXCEPTION HANDLER (use with care)
 # Catch-all handler: useful for debugging, but hides specific error types — avoid in production

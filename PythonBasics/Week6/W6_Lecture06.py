@@ -89,25 +89,25 @@ except AppError as e:
 """
 🌀 EXTRA knowledge: Common Categories of Built-in Exceptions in Python
 
-1️⃣ Type & Value Errors
+### 1 Type & Value Errors
    - TypeError → wrong data type used in an operation.
      Example: "10" + 5
    - ValueError → correct type but invalid value.
      Example: int("abc")
 
-2️⃣ Numeric Errors
+### 2 Numeric Errors
    - ZeroDivisionError → division or modulo by zero.
    - OverflowError → numeric result too large to represent.
 
-3️⃣ Name & Attribute Errors
+### 3 Name & Attribute Errors
    - NameError → variable or name not defined.
    - AttributeError → object has no such attribute or method.
 
-4️⃣ Index & Key Errors
+### 4 Index & Key Errors
    - IndexError → index out of range in a list or tuple.
    - KeyError → key not found in a dictionary.
 
-5️⃣ I/O & File Errors
+### 5 I/O & File Errors
    - FileNotFoundError → file or path does not exist.
    - IOError (OSError) → general input/output operation failure.
 """

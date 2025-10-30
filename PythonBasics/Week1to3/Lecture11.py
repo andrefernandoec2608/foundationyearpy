@@ -1,6 +1,7 @@
 # ---------------------------
-#  🌀 FUNCTION PARAMETERS & ARGUMENTS SUMMARY
+#  🌀 FUNCTION --> PARAMETERS & ARGUMENTS
 # ---------------------------
+# In Python, functions can accept different types of parameters and arguments.
 
 # 1️⃣ POSITIONAL ARGUMENTS
 # Arguments are passed in the same order as parameters.

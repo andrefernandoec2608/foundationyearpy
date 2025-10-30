@@ -1,6 +1,8 @@
 # ---------------------------
-# 🌀 FUNCTION RETURN SUMMARY
+# 🌀 FUNCTION RETURN
 # ---------------------------
+# ✅ Understanding the return statement in Python functions
+
 # When Python executes a return, it immediately exits the function, no matter what comes after it.
 def example():
     print("Before return")

@@ -3,6 +3,7 @@
 # ---------------------------
 
 # 1️⃣ Scalar objects: represent single atomic values (atomic values; immutable)
+print("\n\n🚀 Scalar objects")
 # Think: “one single piece of data”
 age = 30          # int
 pi = 3.1415       # float
@@ -17,6 +18,7 @@ print(type(name))      # <class 'str'>
 print(type(nothing))   # <class 'NoneType'>
 
 # 2️⃣ Non-scalar objects: represent collections or structures (composite structures; may be mutable)
+print("\n\n🚀 Non-Scalar objects")
 # Think: “containers of data”.
 
 # LIST — ordered, mutable
@@ -62,7 +64,8 @@ print(unique_numbers)              # {1, 2, 3, 4, 5, 6, 7}
 
 print(type(unique_numbers))# <class 'set'>
 
-# 🌀 EXTRA knowledge: Basic arithmetic operations
+# 🌀 EXTRA knowledge: Basic arithmetic 
+print("\n\n🚀 EXTRA knowledge")
 a = 5
 b = 2
 

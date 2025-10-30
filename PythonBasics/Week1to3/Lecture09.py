@@ -1,8 +1,11 @@
 # ---------------------------
-# 🌀 VARIABLE SCOPE - PART 01
+# 🌀 VARIABLE SCOPE & LEGB RULE
 # ---------------------------
 
-# 1️⃣ Global variable
+# 1️⃣ Global and Local variable (quick view)
+print("\n\n🚀 Global and Local variable")
+# Accessible everywhere
+# Example:
 x = 10
 
 def my_function():
@@ -20,6 +23,7 @@ print(f"Outside function -> x: {x}")
 # print(y)  # ❌ NameError: 'y' is not defined (y is local)
 
 # 2️⃣ LOCALS() - Show local scope mapping
+print("\n\n🚀 LOCALS()")
 
 def show_scope():
     a = 10
@@ -30,6 +34,7 @@ def show_scope():
 show_scope()
 
 # 3️⃣ LEGB RULE EXAMPLE (Local → Enclosing → Global → Built-in)
+print("\n\n🚀 LEGB RULE EXAMPLE")
 
 x = "global"
 
@@ -47,6 +52,7 @@ outer()
 # ---------------------------
 # 🌀EXTRA knowledge: BUILT-IN FUNCTIONS
 # ---------------------------
+print("\n\n🚀 EXTRA knowledge: BUILT-IN FUNCTIONS")
 
 # Using built-in functions
 numbers = [10, 20, 30]

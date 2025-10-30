@@ -1,6 +1,7 @@
 # ---------------------------
-# 🌀 LIST ALIASING & 'del list[:]' SUMMARY
+# 🌀 LIST --> ALIASING & DEL
 # ---------------------------
+# ✅ Understanding list aliasing and the effect of 'del' on lists
 
 # Step 1: All variables reference the same list object
 list_1 = ["A", "B", "C"]

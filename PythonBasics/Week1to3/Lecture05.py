@@ -1,8 +1,9 @@
 # ---------------------------
-# 🌀 FLOW CONTROL & LOOPS SUMMARY
+# 🌀 FLOW CONTROL & LOOPS
 # ---------------------------
 
 # 1️⃣ IF / ELIF / ELSE
+print("\n\n🚀 IF / ELIF / ELSE")
 x = 5
 
 if x > 0:
@@ -14,6 +15,7 @@ else:
 
 
 # 2️⃣ WHILE LOOP 
+print("\n\n🚀 WHILE LOOP")
 # Repeats while the condition is True
 count = 0
 while count < 3:
@@ -34,12 +36,14 @@ for i in range(1, 10, 3):
 
 
 # 3️⃣ FOR LOOP with enumerate()
+print("\n\n🚀 FOR LOOP with enumerate()")
 # Useful to get both index and value
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print("Index:", index, "Fruit:", fruit)
 
 # 4️⃣ CONTINUE 
+print("\n\n🚀 CONTINUE")
 # Skips the rest of the current iteration
 for i in range(5):
     if i == 2:
@@ -50,6 +54,7 @@ for i in range(5):
 
 
 # 5️⃣ BREAK
+print("\n\n🚀 BREAK")
 # Exits the loop completely
 for i in range(5):
     if i == 3:
@@ -59,7 +64,8 @@ for i in range(5):
 # Output: 0, 1, 2
 
 
-# 6️⃣ PASS ** It's very importante because it helps to keep Python syntax **
+# 6️⃣ PASS ** ⚠️ IMPORTANTE ALERT: It helps to keep Python syntax **
+print("\n\n🚀 PASS")
 # Does nothing; used as a placeholder
 for i in range(5):
     if i == 2:

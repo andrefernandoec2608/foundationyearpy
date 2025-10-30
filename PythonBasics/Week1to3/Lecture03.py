@@ -2,6 +2,10 @@
 # 🌀 STRING & CASTING & BOOLEAN
 # ---------------------------
 
+# ---------------------------
+# 1️⃣ STRINGS
+# ---------------------------
+print("\n\n🚀 STRING")
 a = "Hello"
 b = "World"
 
@@ -17,8 +21,9 @@ print("zebra" > "apple")    # True
 
 
 # ---------------------------
-# 🌀 Type Casting
+# 2️⃣ Type Casting
 # ---------------------------
+print("\n\n🚀 Type Casting")
 
 c = 10        # int
 d = 11.5      # float
@@ -34,8 +39,9 @@ print(bool(c))          # True (non-zero → True)
 
 
 # ---------------------------
-# 🌀 Boolean
+# 3️⃣ Boolean
 # ---------------------------
+print("\n\n🚀 Boolean")
 
 val = True
 val1 = False

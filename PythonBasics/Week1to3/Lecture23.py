@@ -1,6 +1,7 @@
 # ---------------------------
-# 🌀 LIST COPYING, SLICING & ALIASING SUMMARY
+# 🌀 LIST --> COPYING, SLICING & ALIASING
 # ---------------------------
+# ✅ Understanding list aliasing vs cloning (copying) in Python
 
 # 1️⃣ Aliasing (same object in memory)
 # Two variables reference the SAME list (no copy)
@@ -21,7 +22,6 @@ print("list_b:", list_b)
 # └──────────────────┘
 #   ↑       ↑
 # list_a   list_b
-
 
 # 2️⃣ Cloning / Copying a list (independent object)
 # Use slicing [:] to make a shallow copy
@@ -45,7 +45,6 @@ print("list_3:", list_3)  # ['A', 'B', 'C']
 
 # ✅ Modifying one list does NOT affect the others.
 
-
 # 3️⃣ Verifying aliasing vs cloning
 x = [1, 2, 3]
 y = x      # alias
@@ -64,7 +63,6 @@ print("z:", z)
 # x: [99, 2, 3]
 # y: [99, 2, 3]
 # z: [1, 2, 3]
-
 
 # 4️⃣ Internal aliasing with nested lists (For advanced knoldge)
 matrix = [[1, 2]] * 3

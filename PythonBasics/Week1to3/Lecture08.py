@@ -1,6 +1,9 @@
 # ---------------------------
 # 🌀 F-STRINGS (FORMATTED STRING LITERALS)
 # ---------------------------
+#  Available in Python 3.6 and later
+#  Syntax: f"Your text {variable} more text {expression}"
+#  Used for embedding expressions inside string literals
 
 # Basic example: inserting variables inside a string
 name = "Alice"

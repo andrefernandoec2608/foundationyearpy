@@ -1,7 +1,7 @@
 # ---------------------------
-# 🌀 FUNCTION CAN RETURN ANYTHING
+# 🌀 FUNCTION --> RETURN
 # ---------------------------
-
+# Functions in Python can return any type of object.
 # A function can return numbers, strings, lists, dicts, or even other functions.
 
 # Return a number

@@ -1,16 +1,16 @@
 # ---------------------------
-# 🌀 LISTS & TUPLES — KEY CONCEPTS SUMMARY
+# 🌀 LIST & TUPLES— KEY CONCEPTS
 # ---------------------------
-
+#   ✅ Key concepts about lists and tuples in Python
 
 # 2️⃣ NEGATIVE INDEXING
+# Access list elements using negative indices.
 # Negative indices count from the end of the list:
 # -1 → last element, -2 → second to last, and so on.
 m_l = [3, 1, -1]
 m_l[-2] = m_l[-1]  # replace the second-to-last element with the last
 print("Negative indexing example:", m_l)
 # Output: [3, -1, -1]
-
 
 # 3️⃣ LIST REPETITION WITH *
 # Multiply a list by an integer to repeat its elements.
@@ -24,6 +24,7 @@ print("List repetition:", lst)
 
 
 # 4️⃣ TUPLE CONCATENATION
+# Combine tuples using the + operator.
 t1 = (1, 2, 3)
 t2 = (4,)  # single-element tuple → must include the comma
 print("Tuple concatenation:", t1 + t2)
@@ -33,6 +34,7 @@ print("Tuple concatenation:", t1 + t2)
 
 
 # 5️⃣ TUPLE INDEXING AND SLICING
+# Access elements in a tuple using indexing and slicing.
 my_tup = (1, 2, 3)
 print("Access element:", my_tup[2])    # 3rd element
 print("Reverse tuple:", my_tup[::-1])  # reverse order
@@ -45,6 +47,7 @@ print("Reverse tuple:", my_tup[::-1])  # reverse order
 
 
 # 6️⃣ TUPLE UNPACKING
+# Assign tuple elements to multiple variables in one line.
 tup = (1, 2, 3)
 a, b, c = tup  # unpack each element into its variable
 print("Tuple unpacking:", a * b * c)

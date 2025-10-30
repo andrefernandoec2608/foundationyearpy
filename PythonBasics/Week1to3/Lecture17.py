@@ -1,4 +1,9 @@
 # ---------------------------
+# 🌀 LIST BASICS & OPERATIONS - Part 02
+# ---------------------------
+# ✅ Understanding lists and basic list operations in Python
+
+# ---------------------------
 # 🌀 SLICING AND REVERSING
 # ---------------------------
 

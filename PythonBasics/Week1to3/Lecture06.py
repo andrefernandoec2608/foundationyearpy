@@ -1,20 +1,23 @@
 # ---------------------------
-# 🌀 STRUCTURING PROGRAMS IN PYTHON
+# 🌀 STRUCTURING PROGRAMS - FUNCTIONS, CLASSES, MODULES
 # ---------------------------
 
 # ===========================
 # 🌀 FUNCTIONS
 # ===========================
+print("\n\n🚀 FUNCTIONS")
 
 # 1️⃣ A function is a reusable piece of code.
 # It helps to abstract and decompose logic into smaller, clear parts.
+# Functions can take inputs (parameters) and return outputs.
+# There are two main types of functions:
 
 def greet(name):
-    """Function that greets a person by name. It is no a return statement."""
+    # Function that greets a person by name. It is no a return statement.
     print("Hello,", name)
 
 def add(a, b):
-    """Return the sum of two numbers. It is a return statement."""
+    # Return the sum of two numbers. It is a return statement.
     return a + b
 
 """
@@ -31,7 +34,7 @@ professional code — especially in AI, backend, or university projects — beca
 it shows intention and clarity.
 """
 
-# 2️⃣ Function calls
+# 2️⃣ Function calls 
 greet("Alice")
 
 result = add(10, 5)
@@ -40,6 +43,7 @@ print("Result:", result)
 # ===========================
 # 🌀 CLASSES
 # ===========================
+print("\n\n🚀 CLASSES")
 
 # A class groups data (attributes) and behavior (methods) together.
 
@@ -75,6 +79,7 @@ print("Dynamic attribute (email):", p1.email)
 # ===========================
 # 🌀 MODULES
 # ===========================
+print("\n\n🚀 MODULES")
 
 # Imagine we have another file called "math_utils.py" with functions like this:
 # (In a real project, this would be a separate file.)

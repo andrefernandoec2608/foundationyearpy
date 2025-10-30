@@ -1,5 +1,5 @@
 # ---------------------------
-# 🌀 MAP() AND LIST() SUMMARY
+# 🌀 MAP() AND LIST()
 # ---------------------------
 
 # 1️⃣ map(function, iterable)

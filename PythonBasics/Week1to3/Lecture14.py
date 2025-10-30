@@ -1,6 +1,7 @@
 # ---------------------------
 # 🌀 FUNCTION CAN RECEIVE ANOTHER FUNCTION
 # ---------------------------
+# ✅ Passing functions as arguments to other functions
 
 # Simple functions
 def shout(text):

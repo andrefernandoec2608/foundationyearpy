@@ -14,7 +14,13 @@ If you find something that could be added or improved, feel free to let me know 
 
 ### 📅 Update Info  
 This portfolio is up to date with the **Python Foundation Year** classes up to:  
-**Week 3 — Until October 03, 2025**
+**Week 6 — Until October 30, 2025**
+
+---
+
+### 🧭 Course Content  
+Here you can explore all my Python lectures and exercises, organized by week.  
+👉 Go to [🧭 **CONTENT OVERVIEW**](CONTENT_OVERVIEW.md) to see the full learning path!
 
 ---
 

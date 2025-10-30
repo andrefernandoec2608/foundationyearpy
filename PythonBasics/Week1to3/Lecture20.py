@@ -1,10 +1,11 @@
 # ---------------------------
-# 🌀 INTEGER DIVISION (//) AND MODULUS (%) SUMMARY
+# 🌀 INTEGER DIVISION (//) AND MODULUS (%)
 # ---------------------------
+# ✅ Understanding integer division and modulus operations in Python
 
 # 1️⃣ Basic idea
-# //  → integer division (keeps only the whole part)
-# %   → modulus (keeps only the remainder)
+# Integer division (//) gives the quotient without the remainder
+# Modulus (%) gives the remainder of the division
 
 a = 123
 b = 10
@@ -52,7 +53,6 @@ print("After two steps:", num)
 # Before: 1234
 # After one step: 123
 # After two steps: 12
-
 
 # 4️⃣ Example: show integer division and remainder side by side
 dividend = 145

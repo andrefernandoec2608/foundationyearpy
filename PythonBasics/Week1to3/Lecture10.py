@@ -1,5 +1,5 @@
 # ---------------------------
-# 🌀 VARIABLE SCOPE - PART 02
+# 🌀 VARIABLE SCOPE --> GLOBAL VARIABLE AND NONLOCAL
 # ---------------------------
 
 # 1️⃣ Global variable 
@@ -22,14 +22,14 @@ print("Outside function -> global x:", x)
 count = 0  # global variable
 
 def increment():
-    global count
-    count += 1
+    global count # declare that we want to use the global 'count'
+    count += 1 # modify global variable
     print("Inside increment() -> count:", count)
 
 for _ in range(3):
     increment()
 
-print("Outside function -> count:", count)
+print("Outside function -> count:", count) # Outside function -> count: 3
 
 
 # 3️⃣ Functions without 'global'
@@ -45,7 +45,7 @@ modify_local()
 print("Outside after modify_local() -> global x:", x)  # unchanged
 
 
-# 4️⃣ Using NONLOCA
+# 4️⃣ Using NONLOCAL
 # 'nonlocal' allows inner functions to modify variables
 # from their enclosing (outer) function scope.
 
@@ -53,11 +53,11 @@ def outer():
     message = "Hello (outer)"
 
     def inner():
-        nonlocal message
-        message = "Modified by inner"
+        nonlocal message # refer to the enclosing function's variable
+        message = "Modified by inner" # modify it 
         print("Inside inner() -> message:", message)
 
     inner()
-    print("Inside outer() after inner() -> message:", message)
+    print("Inside outer() after inner() -> message:", message) # reflect change made by inner()
 
 outer()

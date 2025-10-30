@@ -1,6 +1,7 @@
 # ---------------------------
-# 🌀 TUPLES SUMMARY
+# 🌀 TUPLE
 # ---------------------------
+# ✅ Understanding tuples and their operations in Python
 
 # 1️⃣ Creating tuples
 empty_tuple = ()

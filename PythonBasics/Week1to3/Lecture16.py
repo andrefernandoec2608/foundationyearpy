@@ -1,5 +1,5 @@
 # ---------------------------
-# 🌀 LIST BASICS & OPERATIONS
+# 🌀 LIST BASICS & OPERATIONS - Part 01
 # ---------------------------
 
 # Creating and modifying lists

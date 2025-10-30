@@ -3,6 +3,15 @@
 # ---------------------------
 # Demonstrate @property, @setter, and @deleter
 
+# ---------------------------
+# Definition
+# ---------------------------
+#  Encapsulation: Bundling data (attributes) and methods (functions) that operate on the data within a single unit (class).
+#  Control access to attributes using property decorators.
+#  @property: Define a method as a readable attribute.
+#  @setter: Define how to set/update the attribute.
+#  @deleter: Define behavior when deleting the attribute.
+# ---------------------------
 class Config:
     def __init__(self):
         self.__token = "ABC123"
@@ -30,6 +39,7 @@ class Config:
 # ---------------------------
 # Usage
 # ---------------------------
+# Create Config instance
 cfg = Config()
 
 # Read using @property (no parentheses)

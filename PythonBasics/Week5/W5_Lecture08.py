@@ -61,8 +61,8 @@ print(repr(p))    # Person(name='Luna', age=22)
 # 4️⃣ DEFINING BOTH __str__ AND __repr__
 # -----------------------------------
 # If both exist:
-#   print(obj) → calls __str__
-#   repr(obj) or the console → calls __repr__
+#   print(obj)                  → calls __str__
+#   repr(obj) or the console    → calls __repr__
 
 class Student:
     def __init__(self, name, grade):

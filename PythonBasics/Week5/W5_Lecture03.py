@@ -2,6 +2,10 @@
 # 🌀 DEFAULT ARGUMENTS
 # -----------------------------------
 
+# Default arguments allow you to specify default values for parameters in methods.
+# If the caller does not provide a value for that parameter, the default is used.
+# This is particularly useful in __init__ methods of classes.
+
 # You can define default parameter values in __init__:
 class Car:
     def __init__(self, brand, year=2020):

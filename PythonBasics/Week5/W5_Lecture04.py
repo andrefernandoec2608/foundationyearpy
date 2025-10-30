@@ -3,6 +3,7 @@
 # ---------------------------
 # This code demonstrates the difference between class attributes and instance attributes in Python.
 
+# Define a Dog class with both class and instance attributes
 class Dog:
     # Class attribute: shared across all instances
     species = "Canine"

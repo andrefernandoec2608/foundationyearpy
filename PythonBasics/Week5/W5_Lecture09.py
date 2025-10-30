@@ -15,14 +15,14 @@ class Student:
 s1 = Student()
 
 # -----------------------------------
-# 🔹 Bound Method
+# Bound Method
 # -----------------------------------
 # When you call a method from an instance (s1.say_hello()),
 # Python automatically passes the instance as the first argument (self).
 s1.say_hello()               # ✅ Automatic and preferred
 
 # -----------------------------------
-# 🔹 Unbound Method
+# Unbound Method
 # -----------------------------------
 # When you call the method directly from the class (Student.say_hello),
 # You MUST pass the instance manually.

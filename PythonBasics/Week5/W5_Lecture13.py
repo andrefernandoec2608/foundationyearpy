@@ -11,8 +11,7 @@
 # 4) DESTRUCTION: Garbage Collector finalizes objects if no references remain and executes __del__ if defined.
 # 🗑️ Garbage Collector (GC) automatically frees memory by reclaiming objects that are no longer referenced.
 
-
-
+# -----------------------------------
 # 1️⃣ Creation (__new__), Initialization (__init__), Destruction (__del__)
 # -----------------------------------
 class Pizza:

@@ -2,7 +2,9 @@
 # 🌀 ITERABLES & ITERATORS vs FILTERING vs SORTING vs RANGES
 # ---------------------------
 
+# -----------------------------
 # 1️⃣ ITERABLES & ITERATORS
+# -----------------------------
 # An iterable is any object capable of returning its members one at a time.
 
 # An iterator is an object that represents a stream of data;
@@ -56,8 +58,9 @@ for key in person:
 for k, v in person.items():
     print(f"{k} -> {v}")  # name -> Alice / age -> 30
 
-
+# -----------------------------
 # 2️⃣ TRANSFORMATION & FILTERING PATTERNS
+# -----------------------------
 # Common patterns for transforming or filtering data from iterables.
 
 ### List comprehensions (idiomatic & very common)

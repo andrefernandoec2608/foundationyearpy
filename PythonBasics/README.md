@@ -20,7 +20,7 @@ This portfolio is up to date with the **Python Foundation Year** classes up to:
 
 ### 🧭 Course Content  
 Here you can explore all my Python lectures and exercises, organized by week.  
-👉 Go to [🧭 **CONTENT OVERVIEW**](CONTENT_OVERVIEW.md) to see the full learning path!
+👉 Go to [**CONTENT OVERVIEW**](CONTENT_OVERVIEW.md) to see the full learning path!
 
 ---
 

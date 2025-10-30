@@ -1,6 +1,7 @@
 # 🐍 Python Foundation Year – ELTE ePortfolio
 
-Welcome to my **ePortfolio** for **Python beginners**.  
+Welcome to my **ePortfolio** for **Python beginners**.
+
 I’ve put together what I think really matters when you’re trying to make sense of this awesome language 🧠🐍 — and what you learn through trial and error (mostly error, to be honest)! 😆  
 
 You’ll find short notes, simple explanations, and a few tips that come from the **Python lecture & practical classes** of ELTE's Foundation Year.

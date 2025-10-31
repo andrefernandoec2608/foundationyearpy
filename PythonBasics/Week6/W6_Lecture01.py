@@ -3,9 +3,9 @@
 # ---------------------------
 
 # Every object in Python has three main properties:
-# 1️⃣ Identity  → unique memory address of the object
-# 2️⃣ Type      → defines what kind of object it is (int, list, str, etc.)
-# 3️⃣ Value     → the data stored inside the object
+# Identity  → unique memory address of the object
+# Type      → defines what kind of object it is (int, list, str, etc.)
+# Value     → the data stored inside the object
 
 # You can check the ID (identity) with id(obj)
 # and compare identities with the "is" operator.
@@ -18,7 +18,7 @@ a = [1, 2, 3]
 b = a            # b points to the same object as a 
 c = [1, 2, 3]    # new list with the same VALUE but a different ID (new object)
 
-# Identity (same object or not)
+# 1️⃣ Identity (same object or not)
 print("IDENTITY CHECK (is):")
 
 print("id(a):", id(a))
@@ -32,7 +32,7 @@ print("a is c →", a is c)  # False → same value but different identity
 💡 NOTE: Equality checks *memory addresses*, not values.
 """
 
-# Equality (same value or not)
+# 2️⃣ Equality (same value or not)
 print("\nEQUALITY CHECK (==):")
 print("a == b →", a == b)  # True → same content (same identity)
 print("a == c →", a == c)  # True → same content (different identity)
@@ -41,9 +41,7 @@ print("a == c →", a == c)  # True → same content (different identity)
 💡 NOTE: Equality checks *values*, not memory addresses.
 """
 
-# ---------------------------
-# Mutability demonstration
-# ---------------------------
+# 3️⃣ Mutability demonstration
 print("\nMUTABILITY:")
 b.append(4)  # modifies the shared list (because a and b share identity)
 

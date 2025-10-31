@@ -3,18 +3,22 @@
 # ---------------------------
 
 # A class is a "blueprint" that defines attributes (data) and methods (behavior).
-# When you call a class like a function, you create (instantiate) a new object.
+# Each object is an instance of that class.
+# The 'self' parameter in methods refers to the specific instance.
 
+# Example:
+# Defining a class
 class Student:
     def __init__(self, name):
         # 'self' refers to the specific instance being created
         self.name = name
 
 # Creating instances
+# When you call a class like a function, you create a instantiate = a new object.
 s1 = Student("Alice")
 s2 = Student("Bob")
 
-# Each instance has its own data stored inside the 'self' namespace
+# Each instance has its own data stored inside its 'self' namespace
 print(s1.name)   # Alice
 print(s2.name)   # Bob
 
@@ -22,12 +26,15 @@ print(s2.name)   # Bob
 # DOT NOTATION
 # -----------------------------------
 
-# The '.' operator is used to access:
+"""
+💡NOTE: The '.' operator is used to access:
 #   • data attributes  -> s1.name
 #   • methods           -> s1.some_method()
+"""
 
 # You can also create new attributes dynamically (Python allows it!)
 # BUT it is not good practice for formal classes
+# Example:
 s1.age = 21
 print(s1.age)    # 21
 
@@ -42,22 +49,22 @@ it can make your objects inconsistent if overused.
 # -----------------------------------
 # TYPE AND ISINSTANCE
 # -----------------------------------
-
+#   # 'type()' returns the class/type of an object
+#   # 'isinstance()' checks if an object is an instance of a class (or its subclasses)
 print(type(s1))                     # <class '__main__.Student'>
 print(isinstance(s1, Student))      # True
 print(isinstance(s1, object))       # True (because all classes inherit from object)
-
-# -----------------------------------
-# CLASSES ARE OBJECTS TOO
-# -----------------------------------
-
-# In Python, a class is itself an object of type 'type'.
-print(type(Student))   # <class 'type'>
 
 """
 💡NOTE:  So 'Student' is an instance of 'type', and 's1' is an instance of 'Student'.
 (This is part of Python’s dynamic object model.)
 """
+
+# -----------------------------------
+# CLASSES ARE OBJECTS TOO
+# -----------------------------------
+# In Python, a class is itself an object of type 'type'.
+print(type(Student))   # <class 'type'>
 
 # -----------------------------------
 # EVERYTHING IS AN OBJECT

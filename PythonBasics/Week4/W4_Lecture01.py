@@ -11,6 +11,9 @@
 # -----------------------------
 # 1️⃣ Iterative countdown with a WHILE loop
 # -----------------------------
+# Iterative implementation using a while loop.
+# The loop continues as long as n > 0.
+# When n reaches 0, the loop terminates.
 def countdown_iter(n: int) -> None:
     """
     Prints: n, n-1, ..., 1, then 'Liftoff!'.
@@ -36,6 +39,9 @@ def countdown_iter(n: int) -> None:
 # -----------------------------
 # 2️⃣ Iterative countdown with a FOR loop
 # -----------------------------
+# Iterative implementation using a for loop.
+# The for loop iterates over a range of numbers from n down to 1.
+# When the range is exhausted, the loop ends.
 def countdown_for(n: int) -> None:
     """
     Same behavior using a for-loop (descending range).

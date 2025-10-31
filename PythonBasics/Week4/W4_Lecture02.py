@@ -11,6 +11,14 @@
 # -----------------------------
 # 3️⃣ Recursive countdown
 # -----------------------------
+# Recursive implementation using function calls.
+# The function calls itself with a decremented value until it reaches the base case.
+# When the base case is reached, the recursion unwinds.
+# Here, the base case is when n <= 0.
+# Each recursive call progresses toward this base case by decrementing n.
+# When n reaches 0, the function prints "Liftoff!" and the recursion ends.
+# 💡 NOTE: This example demonstrates how recursion can achieve the same effect as iteration.
+
 def countdown_rec(n: int) -> None:
     """
     Prints: n, n-1, ..., 1, then 'Liftoff!' using recursion.
@@ -48,3 +56,7 @@ def countdown_rec(n: int) -> None:
 # - Space complexity:
 #     * Iterative: O(1) (loop variables only).
 #     * Recursive: O(n) due to call stack depth.
+# - Recursion can be less efficient due to function call overhead.
+# - Use recursion when it leads to clearer, more maintainable code, especially for problems naturally defined recursively.
+# - Be cautious of hitting recursion limits for deep recursions; Python's default limit is 1000.
+# -----------------------------

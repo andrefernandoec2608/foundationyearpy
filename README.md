@@ -15,6 +15,9 @@ And feel free to share this portfolio with anyone who might find it useful — l
 
 Thanks for stopping by — now grab a cup of tea 🍵 and let’s dive into Python together! 🚀  
 
+---
+
+🏛️ Developed as part of my [**ELTE University ePortfolio**](https://canvas.elte.hu/eportfolios/3106/Welcome), at Eötvös Loránd University (ELTE) in Budapest — where I’m pursuing my Master’s in Computer Science. 🎓
 
 ---
 

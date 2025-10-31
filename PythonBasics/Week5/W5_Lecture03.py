@@ -19,6 +19,9 @@ print(c1.year)   # 2020 (default value)
 print(c2.year)   # 2022
 
 # ⚠️ ALERT: Avoid mutable defaults (like lists or dicts):
+# If you use a mutable object as a default value, it will be shared across all instances of the class.
+# This can lead to unexpected behavior.
+# Example:
 class Bag:
     def __init__(self, items=[]):
         self.items = items
@@ -27,9 +30,10 @@ b1 = Bag()
 b2 = Bag()
 
 b1.items.append("Book")
-print(b2.items)  # ['Book']  -> shared list! (dangerous!)
+print(b2.items)  # ['Book']  -> shared list! (⚠️ ALERT: dangerous!)
 
-# Correct approach:
+# 🌀 EXTRA knowledge: Correct approach
+# Use None as the default value and create a new list inside the method:
 class SafeBag:
     def __init__(self, items=None):
         self.items = [] if items is None else list(items)

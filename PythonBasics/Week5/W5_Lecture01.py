@@ -4,6 +4,7 @@
 
 # A class defines a new data type that groups data (attributes) and behavior (methods).
 # In Python, every class implicitly inherits from 'object'.
+
 # __init__ is an initializer that automatically initializes a new object’s attributes when the class is instantiated.
 
 # Basic syntax of a Class

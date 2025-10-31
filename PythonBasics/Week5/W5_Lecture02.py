@@ -13,7 +13,7 @@ class Student:
     def say_hello(self):
         print(f"Hi, I'm {self.name}!")
 
-s1 = Student("Luna")
+s1 = Student("Luna") # Create an instance of Student, Python passes 'self' automatically
 s1.say_hello()
 
 """

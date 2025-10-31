@@ -10,7 +10,7 @@
 
 
 # -----------------------------------
-# 1) type() — checking the type of objects
+# 1️⃣ type() — checking the type of objects
 # type() returns the CLASS that created the object.
 # -----------------------------------
 x = 42
@@ -21,7 +21,7 @@ print(type(text))  # <class 'str'>
 
 
 # -----------------------------------
-# 2) Classes themselves are objects
+# 2️⃣ Classes themselves are objects
 # -----------------------------------
 class Pizza:
     pass
@@ -34,7 +34,7 @@ print(type(Pizza))   # <class 'type'>             → Pizza itself is an object 
 # just like 'Pizza' created the object 'p'.
 
 # -----------------------------------
-# 3) Dynamic class creation with type()
+# 3️⃣ Dynamic class creation with type()
 # -----------------------------------
 # type(name, bases, dict) → creates a class dynamically at runtime.
 DynamicPizza = type(
@@ -51,9 +51,8 @@ print(dp.bake())  # Output: DynamicPizza dynamically created pizza! 🍕
 #     def bake(self):
 #         return "DynamicPizza dynamically created pizza! 🍕"
 
-
 # -----------------------------------
-# 4) Relationship between 'type' and 'object'
+# 4️⃣ Relationship between 'type' and 'object'
 # -----------------------------------
 print(isinstance(p, Pizza))        # True  → p is instance of Pizza
 print(isinstance(Pizza, type))     # True  → Pizza is instance of type
@@ -63,12 +62,8 @@ print(isinstance(object, type))    # True  → object is created by type
 # type and  object form a minimal closed loop:
 # object → type → object
 
-
-# -----------------------------------
-# 5) Summary table (as comments)
-# -----------------------------------
 """
-💡 NOTE: 
+💡 NOTE: Summary table
 
 | Element             | Creates             | Instance of   |
 |---------------------|--------------------|---------------|

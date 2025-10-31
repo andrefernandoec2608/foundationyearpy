@@ -4,7 +4,7 @@
 # In Python, every object goes through a lifecycle:
 # Full object lifecycle is creation → initialization → use → destruction.
 
-# OBJECT LIFECYCLE (quick guide)
+# ⚠️ ALERT: OBJECT LIFECYCLE STAGES
 # 1) CREATION: allocate/return a new instance (memory level).
 # 2) INITIALIZATION: configure attributes/state.
 # 3) USE: Methods run; object participates in the program.

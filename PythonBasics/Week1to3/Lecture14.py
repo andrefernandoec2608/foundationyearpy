@@ -1,9 +1,10 @@
 # ---------------------------
 # 🌀 FUNCTION CAN RECEIVE ANOTHER FUNCTION
 # ---------------------------
-# ✅ Passing functions as arguments to other functions
+# Passing functions as arguments to other functions
+#
 
-# Simple functions
+# 1️⃣ Simple functions 
 def shout(text):
     return text.upper()
 
@@ -20,24 +21,21 @@ def greet(func):
 greet(shout)
 greet(whisper)
 
-
-# Built-in functions as arguments
+# 2️⃣ Built-in functions as arguments
 def apply_function(func, value):
     return func(value)
 
 print("Absolute value:", apply_function(abs, -10))
 print("Length:", apply_function(len, "Python"))
 
-
-# Function as variable
+# 3️⃣ Function as variable
 def square(x):
     return x * x
 
 operation = square  # assign function to a variable
 print("Square using variable:", operation(5))
 
-
-# Using map() to apply a function to all elements
+# 4️⃣ Using map() to apply a function to all elements
 def double(x):
     return x * 2
 

@@ -7,6 +7,8 @@
 # -----------------------------------
 # Parent class
 # -----------------------------------
+# Pizza is the parent class
+# It has bake() and serve() methods
 class Pizza:
     def __init__(self, ingredients):
         self.ingredients = ingredients
@@ -21,6 +23,8 @@ class Pizza:
 # -----------------------------------
 # Child class (inherits from Pizza)
 # -----------------------------------
+# PineapplePizza inherits from Pizza
+# It overrides bake() and serve(), and adds defend_choice()
 class PineapplePizza(Pizza):
     def __init__(self, ingredients):
         # Call the parent constructor to initialize shared attributes
@@ -47,14 +51,17 @@ class PineapplePizza(Pizza):
 # -----------------------------------
 # Usage examples
 # -----------------------------------
+# Create instances of both classes
 classic = Pizza(["cheese", "tomato"])
 hawaiian = PineapplePizza(["cheese", "tomato", "ham"])
 
 print("--- Parent class ---")
+# Using parent class methods
 classic.bake()
 classic.serve()
 
 print("\n--- Child class ---")
+# Using child class methods
 hawaiian.bake()           # Overrides bake()
 hawaiian.serve()          # Overrides serve()
 hawaiian.defend_choice()  # Unique method

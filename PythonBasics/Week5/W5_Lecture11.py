@@ -1,7 +1,10 @@
 # ---------------------------
 # 🌀 OPERATOR OVERLOADING 
 # ---------------------------
+# Operator overloading allows custom classes to define the behavior of standard operators
+# (like +, -, *, etc.) when they are used with instances of those classes.
 
+# Vector Example: Overloading the '+' operator for a custom Vector class
 class Vector:
     def __init__(self, x, y):
         self.x = x
@@ -36,6 +39,8 @@ print(v3)  # Vector(6, 4)
 # -----------------------------------
 # Demonstrating NotImplemented
 # -----------------------------------
+# Trying to add a Vector and an integer
+# This will trigger the NotImplemented exception
 result = v1 + 5
 print(result)
 """

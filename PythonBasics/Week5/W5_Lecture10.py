@@ -1,9 +1,11 @@
 # ---------------------------
 # 🌀 EQUALITY & IDENTITY IN CLASSES 
 # ---------------------------
+# '==' checks for value equality (can be customized with __eq__)
+# 'is' checks for object identity (same memory location)
 
 # -----------------------------------
-# 1️⃣ DEFAULT BEHAVIOR ('==' behaves like 'is' behaves unless you define __eq__)
+# 1️⃣ DEFAULT BEHAVIOR ('==' behaves like 'is' behaves ⚠️ ALERT: unless you define __eq__)
 # -----------------------------------
 class StudentDefault:
     def __init__(self, name):
@@ -64,7 +66,9 @@ class StudentHashable:
         return (self.name, self.age) == (other.name, other.age)
 
     def __hash__(self):
-        # 🌀 hash must be consistent with equality
+        # 🌀, ⚠️ ALERT: hash must be consistent with equality
+        # If two objects are equal (by __eq__), they ⚠️ ALERT: MUST have the same hash value
+        # Here we combine the hashes of the attributes used in __eq__
         return hash((self.name, self.age))
 
 s1 = StudentHashable("Luna", 22)

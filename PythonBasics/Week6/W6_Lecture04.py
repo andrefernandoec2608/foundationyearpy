@@ -14,7 +14,7 @@
 #   exc_tb   → traceback (location and call stack info)
 # ---------------------------
 
-# Defining a custom context manager class
+# 1️⃣ Defining a custom context manager class
 class MyResource:
     def __enter__(self):
         print("✅ Resource acquired")   # runs at the start of 'WITH' statement block
@@ -35,6 +35,8 @@ class MyResource:
         # Returning False → lets the exception propagate (normal behavior)
         # Here we return True just for demo purposes, so the script won't crash.
         return True
+
+# 2️⃣ Using the custom context manager with 'WITH' statement
 
 # Before the 'WITH' statement block
 print(">>> Entering with-block")

@@ -22,7 +22,7 @@ Functions like print(), len(), range(), list, dict, etc. belong to the built-in 
 not to the built-in modules — they are always available without import.
 """
 
-# 1) IMPORT STYLES
+# 1️⃣ IMPORT STYLES
 # Different ways to import modules and their contents.
 import math
 print(math.sqrt(16))        # import the whole module
@@ -39,7 +39,7 @@ print(factorial(5))
 print(round(log(8, 2), 2)) 
 
 # ======================================================
-# 2) BUILT-IN MODULES
+# 2️⃣ BUILT-IN MODULES
 # ======================================================
 import os
 print(os.getcwd())          # current working directory (path string)
@@ -60,7 +60,7 @@ print(sys.version.split()[0])  # Python version (e.g., '3.12.3')
 # print(sys.path)              # search paths used by the import machinery
 
 # ======================================================
-# 3) THIRD-PARTY MODULES (COMMENTED — DIDACTIC ONLY)
+# 3️⃣ THIRD-PARTY MODULES (COMMENTED — DIDACTIC ONLY)
 # ======================================================
 """
 # Install with pip (terminal):
@@ -72,7 +72,7 @@ res = requests.get("https://api.github.com")
 print(res.status_code)      # 200
 """
 
-# 4) CUSTOM MODULE — YOUR OWN .py FILE
+# 4️⃣ CUSTOM MODULE — YOUR OWN .py FILE
 #   mylibraryexample.py is already created in the same folder as this script.
 #   mylibraryexample.py has a 'def greet(name: str) -> str:' method implemented.
 import w6mylibraryexample as mylib

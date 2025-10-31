@@ -1,7 +1,7 @@
 # ---------------------------
 # 🌀 LIST --> COPYING, SLICING & ALIASING
 # ---------------------------
-# ✅ Understanding list aliasing vs cloning (copying) in Python
+# Understanding list aliasing vs cloning (copying) in Python
 
 # 1️⃣ Aliasing (same object in memory)
 # Two variables reference the SAME list (no copy)
@@ -43,7 +43,7 @@ print("list_3:", list_3)  # ['A', 'B', 'C']
 #     ↑                     ↑                     ↑
 #   list_1                list_2                list_3
 
-# ✅ Modifying one list does NOT affect the others.
+# 💡 NOTE: Modifying one list does NOT affect the others.
 
 # 3️⃣ Verifying aliasing vs cloning
 x = [1, 2, 3]
@@ -74,7 +74,7 @@ print("After:", matrix)
 # Before: [[1, 2], [1, 2], [1, 2]]
 # After:  [[99, 2], [99, 2], [99, 2]]
 
-# ⚠️ All rows refer to the same sublist!
+# ALERT ⚠️: All rows refer to the same sublist!
 # ┌───────────────┐
 # │ [1, 2]        │  ← same inner object used 3 times
 # └───────────────┘

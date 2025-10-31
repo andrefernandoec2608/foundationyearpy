@@ -3,7 +3,7 @@
 # ---------------------------
 # ✅ Understanding list aliasing and the effect of 'del' on lists
 
-# Step 1: All variables reference the same list object
+# 1️⃣ All variables reference the same list object
 list_1 = ["A", "B", "C"]
 list_2 = list_1
 list_3 = list_2
@@ -15,12 +15,12 @@ list_3 = list_2
 #   ↑     ↑     ↑
 # list_1 list_2 list_3
 
-# Step 2: Delete the first element (index 0)
+# 2️⃣ Delete the first element (index 0)
 del list_2[0]      # removes "A"
 print("After del list_1[0]:", list_3) # it affects all references
 # Output: ['B', 'C']
 
-# Step 3: Delete all elements using slice [:]
+# 3️⃣ Delete all elements using slice [:]
 del list_3[:]      # empties the SAME list object
 print("After del list_3[:]:", list_1)
 # Output: []
@@ -32,7 +32,7 @@ print("After del list_3[:]:", list_1)
 #   ↑     ↑     ↑
 # list_1 list_2 list_3
 
-# Step 4: Delete the variable reference
+# 4️⃣ Delete the variable reference
 x = [1, 2, 3]
 y = x
 del y[:]     # empties the list (keeps both variables)

@@ -1,7 +1,7 @@
 # ---------------------------
 # 🌀 INPUT()
 # ---------------------------
-# ✅ Understanding input() function and type casting in Python
+# Understanding input() function and type casting in Python
 
 # 1️⃣ Basic input
 # input() reads user input from the console and always returns a STRING (str)

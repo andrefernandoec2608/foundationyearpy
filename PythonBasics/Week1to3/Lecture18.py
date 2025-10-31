@@ -1,7 +1,15 @@
 # ---------------------------
 # 🌀 TUPLE
 # ---------------------------
-# ✅ Understanding tuples and their operations in Python
+# Understanding tuples and their operations in Python
+# Tuples are ordered, immutable collections of items.
+# They are defined using parentheses ().
+# Tuples can contain elements of different data types.
+# Tuples support indexing, slicing, and various operations like concatenation and repetition.
+# Tuples can be packed and unpacked for easy variable assignment.
+# Tuples are often used for fixed collections of items and can be more memory efficient than lists.
+
+# Here are some examples demonstrating tuple creation, access, and operations:
 
 # 1️⃣ Creating tuples
 empty_tuple = ()
@@ -49,14 +57,12 @@ print("Before swap:", x, y)
 (x, y) = (y, x)
 print("After swap:", x, y)
 
-
 # 7️⃣ Membership test
 letters = ('a', 'b', 'c')
 if 'o' not in letters:
     print("'o' is not in tuple")
 else:
     print("'o' found in tuple")
-
 
 # 8️⃣ Comparing lists vs tuples
 my_list = [1, 2, 3]

@@ -17,6 +17,6 @@ def print_ecuador_ascii() -> None:
 def greet(name: str) -> str:
     print(f"\n\n\nThanks {name}! For getting this far in the course, Master's Python course - Week 6th.\n")
     print_ecuador_ascii()
-    print("\n\nIf you’re reading this message, take a picture (message compiled in console) and let me know — ")
+    print("\n\nIf you’re reading this message, take a picture (message compiled in console) and let me know (Just for 1st and 2nd first positions) — ")
     print("you’ve just earned a special souvenir from my country, Ecuador!🎁")
     return f"\n\nThanks {name}! \n\n\nGreetings from Andre!"

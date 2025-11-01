@@ -29,7 +29,7 @@ print("a is b →", a is b)  # True  → same identity (both point to same objec
 print("a is c →", a is c)  # False → same value but different identity
 
 """
-💡 NOTE: Equality checks *memory addresses*, not values.
+💡 NOTE: Is checks *memory addresses*, not values.
 """
 
 # 2️⃣ Equality (same value or not)

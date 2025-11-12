@@ -1,1 +1,4 @@
+# Ignore because I'm working on Python basics practice
 PythonBasicsPractice/
+# Jupyter
+.ipynb_checkpoints/
